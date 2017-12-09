@@ -1,0 +1,7 @@
+Keyspace_Name,Durable_Wtrites,Strategy_class,Strategy_Options
+system_auth,True,org.apache.cassandra.locator.SimpleStrategy,{"replication_factor":"1"}
+stockmarket,True,org.apache.cassandra.locator.SimpleStrategy,{"replication_factor":"1"}
+OpsCenter,True,org.apache.cassandra.locator.SimpleStrategy,{"replication_factor":"1"}
+system_distributed,True,org.apache.cassandra.locator.SimpleStrategy,{"replication_factor":"3"}
+system,True,org.apache.cassandra.locator.LocalStrategy,{}
+system_traces,True,org.apache.cassandra.locator.SimpleStrategy,{"replication_factor":"2"}
